@@ -1,0 +1,11 @@
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactButton {
+  width: 60px;
+  margin-left: 40px;
+}

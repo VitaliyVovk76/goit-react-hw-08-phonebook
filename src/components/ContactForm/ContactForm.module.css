@@ -1,0 +1,21 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+
+  border: 1px solid black;
+  max-width: 450px;
+}
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.formInput {
+  max-width: 250px;
+}
+.formButton {
+  width: 100px;
+}
