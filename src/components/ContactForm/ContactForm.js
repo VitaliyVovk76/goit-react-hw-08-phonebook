@@ -4,7 +4,7 @@ import { addContacts } from "../../redux/contacts/contacts-operations";
 import { getContacts } from "../../redux/contacts/contacts-selectors";
 import s from "./ContactForm.module.css";
 
-export default function ContactForm() {
+export default function ContactForm({ onSave }) {
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const allContacts = useSelector(getContacts);
@@ -30,6 +30,7 @@ export default function ContactForm() {
 
     dispatch(addContacts({ name, number }));
     reset();
+    onSave();
   };
 
   const reset = () => {

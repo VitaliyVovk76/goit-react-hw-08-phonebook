@@ -5,6 +5,9 @@
   margin-right: auto;
   padding: 20px;
 
+background-color: #fff;
+  border-radius: 5px;
+
   border: 1px solid black;
   max-width: 450px;
 }
